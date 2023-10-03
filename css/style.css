@@ -43,8 +43,14 @@ header {
   margin-left: 60px;
 }
 
+.pulsanti {
+  display: flex;
+  width: 950px;
+  justify-content: center;
+}
+
 #accedi,
-.windows {
+.scarica {
   background-color: white;
   color: black;
 }
@@ -56,13 +62,16 @@ header {
   padding-top: 50px;
 }
 
-h1 {
+/* h1 {
   text-align: center;
+} */
+
+h1 {
+  padding-left: 200px;
 }
 
 h1,
 h2 {
-  padding: 50px;
   font-size: 50px;
 }
 
@@ -73,19 +82,19 @@ p {
   padding-top: 20px;
 }
 
+p:last-of-type {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 section:nth-of-type(even) {
   background-color: #f6f6f6;
 }
 
-.scarica {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-
 .apri {
   margin-left: 20px;
-  background-color: black;
+  background-color: #23272a;
 }
 
 .header-box {
@@ -117,9 +126,10 @@ section:nth-of-type(even) {
   display: flex;
 }
 
-.bottom-container {
+.bottom.container {
   width: 950px;
   margin: 40px auto;
+  flex-wrap: wrap;
 }
 
 /* /Header */
@@ -128,7 +138,6 @@ section:nth-of-type(even) {
 
 section {
   padding: 40px 0;
-  display: flex;
 }
 
 .wave {
@@ -148,6 +157,25 @@ section {
 .right-box {
   display: flex;
   flex-grow: 1;
+}
+
+.main-bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.below {
+  background-color: #7289da;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.invitation {
+  font-size: 30px;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  margin-left: 250px;
+  margin-bottom: 50px;
 }
 
 /* /Body */
@@ -176,6 +204,10 @@ footer > .container {
   /* border: 2px dashed black; */
   padding: 5px;
   /* background-color: #ffb6c1; */
+}
+
+#item4 {
+  margin: 0 100px;
 }
 
 /* hr {
