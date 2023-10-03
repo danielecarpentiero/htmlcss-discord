@@ -1,0 +1,161 @@
+/* RULES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* /RULES */
+
+/* debug */
+
+.top.debug {
+  background-color: #add8e6;
+}
+
+.bottom.debug {
+  background-color: #00008b;
+}
+
+.bottom-container.debug {
+  background-color: #ee82ee;
+  height: 420px;
+}
+
+section .container.debug {
+  height: 520px;
+}
+
+.bottom2.container.debug {
+  height: 940px;
+  background-color: #228b22;
+}
+
+.left-box.debug {
+  background-color: #1e90ff;
+}
+
+.right-box.debug {
+  background-color: #ffc0cb;
+}
+
+.column.debug {
+  height: 600px;
+  background-color: #20b2aa;
+}
+
+.column.debug:first-of-type {
+  background-color: #f08080;
+}
+
+/* debug */
+
+/* Header */
+
+.top > .container {
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  width: 1250px;
+  margin: 0px auto;
+}
+
+.header-box {
+  padding: 10px;
+  border: 2px dashed black;
+  background-color: #daa520;
+}
+.header-box.three,
+.header-box.one {
+  width: 200px;
+}
+
+.header-box.two {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.header-box.three {
+  text-align: right;
+}
+
+.bottom {
+  display: flex;
+  border-bottom: 5px solid#add8e6;
+}
+
+.bottom-container {
+  width: 950px;
+  margin: 40px auto;
+  border: 2px dashed black;
+}
+
+/* /Header */
+
+/* Body */
+
+section {
+  padding: 40px 0;
+}
+
+section:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.right-box,
+.left-box {
+  border: 2px dashed black;
+}
+
+.left-box {
+  width: 750px;
+}
+
+.right-box {
+  flex-grow: 1;
+}
+
+.bottom2.container {
+  border: 2px dashed black;
+}
+
+/* /Body */
+
+/* Footer */
+
+footer {
+  background-color: #23272a;
+}
+
+footer > .container {
+  padding: 20px 0;
+}
+.column {
+  border: 2px dashed white;
+  min-width: 220px;
+}
+
+.column:first-of-type {
+  border: 2px dashed black;
+  flex-grow: 1;
+}
+
+#last {
+  background-color: #7fffd4;
+  justify-content: space-between;
+}
+
+.info {
+  border: 2px dashed black;
+  padding: 5px;
+  background-color: #ffb6c1;
+}
+
+hr {
+  color: white;
+}
+
+/* /Footer */
