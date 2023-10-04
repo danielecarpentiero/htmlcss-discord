@@ -146,12 +146,11 @@ section {
 
 .wave {
   width: 100%;
-  color: #f6f6f6;
-  background-color: #f6f6f6;
+  opacity: 0.04;
 }
 
-.wave {
-  flex-direction: row-reverse;
+.wave.reverse {
+  transform: scale(1, -1);
 }
 
 .left-box {
@@ -218,6 +217,10 @@ h4 {
 .contenitore {
   font-size: 20px;
   display: flex;
+}
+
+h3 .contenitore {
+  vertical-align: middle;
 }
 
 .contenitore > img {
